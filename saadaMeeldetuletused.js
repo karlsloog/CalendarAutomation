@@ -1,5 +1,5 @@
 function saadaMeeldetuletused() {
-  const spreadsheetId = "1E8sJmdER2nbuW6hNsgs2b_CKfphod5wyj99M9pYoNbQ";
+  const spreadsheetId = "spreadsheetid";
   const sheet = SpreadsheetApp.openById(spreadsheetId).getSheetByName("Sheet1");
   const data = sheet.getDataRange().getValues(); // ← Kasutame getValues()!
 
