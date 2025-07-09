@@ -1,5 +1,5 @@
 function kustutaTagastatudSündmused() {
-  const spreadsheetId = "1E8sJmdER2nbuW6hNsgs2b_CKfphod5wyj99M9pYoNbQ";
+  const spreadsheetId = "spreadsheetId";
   const sheet = SpreadsheetApp.openById(spreadsheetId).getSheetByName("Sheet1");
   const data = sheet.getDataRange().getValues();
   const calendar = CalendarApp.getCalendarById("c_ea917da921bd1bb2b03c13511099dd10ebe9afd8fe4409ae4c8ee906918bb6a3@group.calendar.google.com");
