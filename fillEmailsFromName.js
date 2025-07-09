@@ -1,7 +1,7 @@
 function fillEmailsFromNames() {
-  const spreadsheetId = "1E8sJmdER2nbuW6hNsgs2b_CKfphod5wyj99M9pYoNbQ";
+  const spreadsheetId = "spreadsheatId";
   const sheet = SpreadsheetApp.openById(spreadsheetId).getSheetByName("Sheet1");
-  const domain = 'tartukunstikool.ee'; // <<< Asenda oma domeeniga!
+  const domain = 'xxxxx.com'; // <<< Asenda oma domeeniga!
   
   const names = sheet.getRange("B2:B").getValues(); // B veerg, alates 2. reast
   
